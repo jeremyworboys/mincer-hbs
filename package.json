@@ -1,14 +1,44 @@
 {
   "name": "mincer-hbs",
-  "description": "Handlebars engine for Mincer",
-  "version": "0.0.1",
-  "author": "Jeremy Worboys <jw@jeremyworboys.com>",
+  "version": "1.0.0",
+  "description": "Handlebars JST engine for Mincer",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "dependencies": {
-    "mincer": "~0.5.6",
-    "handlebars": "~1.0.12"
+    "handlebars": "1.0.12",
   },
   "devDependencies": {
-    "chai": "~1.7.2",
-    "mocha": "~1.12.0"
+    "mincer": "~0.5.6",
+    "mocha": "*",
+    "chai": "*"
+  },
+  "scripts": {
+    "prepublish": "npm prune",
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jeremyworboys/mincer-hbs.git"
+  },
+  "keywords": [
+    "mincer",
+    "snockets",
+    "sprockets",
+    "assets",
+    "pipeline",
+    "hbs",
+    "handlebars",
+    "moustache",
+    "JST",
+    "templates",
+    "compile",
+    "precompile"
+  ],
+  "author": "Jeremy Worboys <jw@jeremyworboys.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeremyworboys/mincer-hbs/issues"
   }
 }
