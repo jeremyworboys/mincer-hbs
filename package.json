@@ -1,0 +1,14 @@
+{
+  "name": "mincer-hbs",
+  "description": "Handlebars engine for Mincer",
+  "version": "0.0.1",
+  "author": "Jeremy Worboys <jw@jeremyworboys.com>",
+  "dependencies": {
+    "mincer": "~0.5.6",
+    "handlebars": "~1.0.12"
+  },
+  "devDependencies": {
+    "chai": "~1.7.2",
+    "mocha": "~1.12.0"
+  }
+}
