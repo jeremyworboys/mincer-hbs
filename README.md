@@ -14,13 +14,17 @@ $ npm install mincer-hbs
 
 ## Usage
 
+Attach the engine to the Mincer library:
+
 ```js
 var Mincer = require('mincer');
 
 require('mincer-hbs')(Mincer);
 ```
 
-You can now process files with a `.jst.hbs` extension.
+Mincer will now process files with a `.jst.hbs` extension.
+
+**Note:** You must include the [Handlebars runtime](http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0/handlebars.runtime.js) to render precompiled templates.
 
 
 ## Running Tests
